@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.Sample", "Cake.Sample\Cake.Sample.csproj", "{C3C98D98-C7BF-4B83-A881-189A3278B9D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLib.Sample", "ExternalLib.Sample\ExternalLib.Sample.csproj", "{50E425BD-A8DC-4758-B869-2F907F632C73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6776E4E0-A8C1-437B-BB50-D06E3DAF6E6A}"
+	ProjectSection(SolutionItems) = preProject
+		build.cake = build.cake
+		build.ps1 = build.ps1
+		Cake.Sample\commands.json = Cake.Sample\commands.json
+		test.cake = test.cake
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3C98D98-C7BF-4B83-A881-189A3278B9D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C98D98-C7BF-4B83-A881-189A3278B9D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C98D98-C7BF-4B83-A881-189A3278B9D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C98D98-C7BF-4B83-A881-189A3278B9D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E425BD-A8DC-4758-B869-2F907F632C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E425BD-A8DC-4758-B869-2F907F632C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E425BD-A8DC-4758-B869-2F907F632C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E425BD-A8DC-4758-B869-2F907F632C73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

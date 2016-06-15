@@ -1,0 +1,15 @@
+{
+    "commands": {
+			"build": {
+				"fileName": "powershell.exe",
+				"workingDirectory": "..",
+				"arguments": "-ExecutionPolicy Bypass -NonInteractive -File ..\\build.ps1 -Script ..\\build.cake"
+			},
+			"test": {
+				"fileName": "powershell.exe",
+				"workingDirectory": "..",
+				"arguments": "-ExecutionPolicy Bypass -NonInteractive -File ..\\build.ps1 -Script ..\\test.cake"
+			} 
+    },
+    "-vs-binding": { "AfterBuild": [ "build" ] }
+}
